@@ -1,3 +1,5 @@
+package com.example;
+
 public class Libro {
 
     private String titulo;
@@ -31,7 +33,7 @@ public class Libro {
                 " | Páginas: " + paginas);
     }
 }
-
+package com.example;
 public class CuentaBancaria {
 
     private String titular;
@@ -81,7 +83,7 @@ public class CuentaBancaria {
         }
     }
 }
-
+package com.example;
 public class Estudiante {
 
     private String nombre;
@@ -149,7 +151,7 @@ public class Estudiante {
         }
     }
 }
-
+package com.example;
 public class Main {
 
     public static void main(String[] args) {
@@ -179,3 +181,4 @@ public class Main {
         e.mostrarInfo();
     }
 }
+
